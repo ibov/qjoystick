@@ -8,3 +8,7 @@ New functions added:
       + disconnected state
 
 Author: N.D.Quan - 27/10/2021
+
+Tested on:
+- Ubuntu 18.04
+- Qt5
