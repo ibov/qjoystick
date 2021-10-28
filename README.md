@@ -20,8 +20,8 @@ connect(joystick, &Joystick::onAxisChange,this,&JoystickMonitor::onAxisEvent);
 connect(joystick, &Joystick::onDisconnected,this,&JoystickMonitor::onDisconnectedEvent);
 joystick->start();
 ```
-##### Results:
-```
+##### Example results with x-mode joystick:
+```ruby
 Axis  4 : 31341
 Axis  4 : 22535
 Axis  4 : 0
