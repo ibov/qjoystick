@@ -1,5 +1,5 @@
 # qjoystick
-- This qjoystick class is rewritten based on the lib: https://github.com/drewnoakes/joystick
+- This qjoystick class is rewritten based on the library: https://github.com/drewnoakes/joystick. Please look at this library if you want to see more detail and explanation. 
 - I create the library and examples in Qt. See the headers for more details of the class functions. 
 > Note that, your gamepad should be recognized under Linux, for example, mine is located at "/dev/input/js0".
 > This library should work on Linux-based OS. I only tested the library on Ubuntu 18.04. It'll up to you to adapt to other OS.  
@@ -24,7 +24,7 @@ connect(joystick, &Joystick::onDisconnected,this,&JoystickMonitor::onDisconnecte
 joystick->start();
 ```
 ##### Example results with x-mode joystick:
-```ruby
+```
 Axis  4 : 31341
 Axis  4 : 22535
 Axis  4 : 0
