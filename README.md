@@ -2,14 +2,17 @@
 - This qjoystick class is rewritten based on the library: https://github.com/drewnoakes/joystick. Please look at this library if you want to see more detail and explanation. 
 - I create the library and examples in Qt. See the headers for more details of the class functions. 
 > Note that, your gamepad should be recognized under Linux, for example, mine is located at "/dev/input/js0".
-> This library should work on Linux-based OS. I only tested the library on Ubuntu 18.04. It'll up to you to adapt to other OS.  
+
+> This library should work on Linux-based OS. I only tested the library on Ubuntu 18.04. It'll up to you to adapt to other OS.
+
+> If your gamepad is not found under Linux, try the xpad driver from https://github.com/paroj/xpad. Good luck! 
 - **Author: N.D.Quan - 10/2021**
 
 ## New functions added:
 - Auto reconnect to joystick after unplugging / plugging
 - Emit signals including:
-      + button / axis values
-      + disconnected state
+  - button / axis values
+  - disconnected state
 
 ## Tested on:
 - Ubuntu 18.04
